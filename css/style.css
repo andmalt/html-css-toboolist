@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#head-logo{
+    margin-top: 50px;
+    line-height: 80px;
+    
+}
+#head-logo img{
+    vertical-align: middle;
+    padding-left: 30px;
+}
+#title-logo{
+    font-size: 40px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+main{
+    background-color: rgb(238, 237, 237);
+}
+.table{
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.navi{
+    margin-bottom: 2px;
+    line-height: 30px;
+}
+.Title-list{
+    font-weight: bold;
+    font-size: 20px;
+}
+.check{
+    color: green;
+    border-color: green;
+    border-radius: 50%;
+}
+ul li{
+    list-style: none;
+}
