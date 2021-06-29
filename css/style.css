@@ -24,12 +24,14 @@ main{
     background-color: white;
     margin-left: 150px;
     margin-right: 150px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 .navi{
     margin-bottom: 2px;
-    line-height: 30px;
+    line-height: 40px;
+    padding: 0 50px;
+}
+.main-t{
+   padding: 50px;     
 }
 .Title-list{
     font-weight: bold;
@@ -37,8 +39,22 @@ main{
 }
 .check{
     color: green;
-    border-color: green;
     border-radius: 50%;
+    border: 2px solid green;
+}
+.cross{
+    color: red;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.u-list{
+    line-height: 35px;
+}
+.firstU{
+    padding-bottom: 20px;
+}
+.button{
+    padding: 6px;
 }
 ul li{
     list-style: none;
