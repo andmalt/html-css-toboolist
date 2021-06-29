@@ -13,6 +13,9 @@ button{
 ul li{
     list-style: none;
 }
+.container{
+    padding: 50px 0;    
+}
 .table{
     background-color: white;
     margin-left: 150px;
