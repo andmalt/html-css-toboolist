@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap" rel="stylesheet">
     <title>Exercise Toboolist</title>
 </head>
 <body>
@@ -19,18 +22,24 @@
     <!-- corpo principale -->
     <main>
         <div class="navi table">
-            <input class="button task" type="button" value="Add Task">
-            <input class="button section" type="button" value="Add Section">
+            <button class="button b-task">Add Task</button>
+            <button class="button b-section">Add Section</button>
         </div>
         <div class="main-t table">
             <ul class="u-list firstU">&#9660 <span class="Title-list">New Task</span>
-                <li><span class="check">&check;</span> Quarterly Newsletter <span class="">editorial</span> </li>
+                <li><span class="check">&check;</span> Quarterly Newsletter <span class="type-m c-b">editorial</span> </li>
             </ul>
             <ul class="u-list secondU">&#9660 <span class="Title-list">Today</span>
-                <li><span class="check">&check;</span> Recruiting blog post </li>
+                <li><span class="check">&check;</span> Recruiting blog post <span class="type-m c-b">editorial</span> </li>
                 <li><span class="check">&check;</span> Mobile App Launch </li>
                 <li><span class="cross">&cross;</span> Interview John H. </li>
                 <li><span class="check">&check;</span> Summit Update to mobile storefronts </li>
+            </ul>
+            <ul class="u-list thirdU">&#9660 <span class="Title-list">Upcoming</span>
+                <li><span class="cross">&cross;</span> Schedule meeting with Alex </li>
+                <li><span class="check">&check;</span> Homepage refresh </li>
+                <li><span class="check">&check;</span> Onboard new Sales team members </li>
+                <li><span class="check">&check;</span> Review editorial calendar <span class="type-m c-b">editorial</span> </li>
             </ul>
         </div>
 

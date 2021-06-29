@@ -2,23 +2,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-#head-logo{
-    margin-top: 50px;
-    line-height: 80px;
-    
-}
-#head-logo img{
-    vertical-align: middle;
-    padding-left: 30px;
-}
-#title-logo{
-    font-size: 40px;
-    font-weight: bold;
-    vertical-align: middle;
+    font-family: 'Work Sans', sans-serif;
 }
 main{
     background-color: rgb(238, 237, 237);
+}
+button{
+    padding: 6px;
+}
+ul li{
+    list-style: none;
 }
 .table{
     background-color: white;
@@ -53,9 +46,42 @@ main{
 .firstU{
     padding-bottom: 20px;
 }
+.secondU{
+    padding: 20px 0;
+}
+.thirdU{
+    padding: 20px 0;
+}
+.b-task{
+    background-color: lightskyblue;
+    color: white;
+    border-radius: 6px;
+}
 .button{
-    padding: 6px;
+    border-radius: 6px;
 }
-ul li{
-    list-style: none;
+.type-m{
+    padding: 7px;
+    border-radius: 13px;
+    color: white;
 }
+.c-b{
+    background-color: lightskyblue;
+}
+#head-logo{
+    margin-top: 50px;
+    line-height: 80px;
+    
+}
+#head-logo img{
+    vertical-align: middle;
+    padding-left: 30px;
+}
+#title-logo{
+    font-size: 40px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+
+
