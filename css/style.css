@@ -68,6 +68,21 @@ ul li{
 .c-b{
     background-color: lightskyblue;
 }
+.c-v{
+    background-color: rgb(146, 64, 146);
+}
+.c-lg{
+    background-color: rgb(89, 155, 89);
+}
+.c-o{
+    background-color: orange;
+}
+.c-p{
+    background-color: rgb(253, 166, 180);
+}
+.c-g{
+    background-color: rgb(142, 228, 15);
+}
 #head-logo{
     margin-top: 50px;
     line-height: 80px;
