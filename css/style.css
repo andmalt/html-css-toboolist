@@ -7,19 +7,40 @@
 main{
     background-color: rgb(238, 237, 237);
 }
-button{
-    padding: 6px;
-}
 ul li{
     list-style: none;
+    
 }
+
+/* bottoni navi */
+
+.button{
+    padding: 6px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+}
+.b-task{
+    background-color: lightskyblue;
+    color: white;
+}
+.b-task:hover{
+    color: rgb(14, 173, 226);
+    background-color: lightgreen;
+}
+.b-section:hover{
+    color: white;
+    background-color: grey;
+}
+
 .container{
-    padding: 50px 0;    
+    padding: 50px 0;
+    width: 70%;
+    height: 80%; 
+    margin: 0 auto;   
 }
 .table{
     background-color: white;
-    margin-left: 150px;
-    margin-right: 150px;
+    
 }
 .navi{
     margin-bottom: 2px;
@@ -29,43 +50,43 @@ ul li{
 .main-t{
    padding: 50px;     
 }
-.Title-list{
+.title-list{
     font-weight: bold;
     font-size: 20px;
 }
 .check{
     color: green;
-    border-radius: 50%;
+    border-radius: 100%;
     border: 2px solid green;
+    padding: 6px;
+    margin: 0 6px;
+    font-weight: bold;
 }
 .cross{
     color: red;
-    border-radius: 50%;
+    border-radius: 100%;
     border: 2px solid red;
+    padding: 6px;
+    margin: 0 6px;
+    font-weight: bold;
 }
 .u-list{
-    line-height: 35px;
+    line-height: 37px;
 }
-.firstU{
+.first-ul{
     padding-bottom: 20px;
 }
-.secondU{
+.second-ul{
     padding: 20px 0;
 }
-.thirdU{
+.third-ul{
     padding: 20px 0;
 }
-.b-task{
-    background-color: lightskyblue;
-    color: white;
-    border-radius: 6px;
-}
-.button{
-    border-radius: 6px;
-}
+
 .type-m{
     padding: 7px;
     border-radius: 13px;
+    margin-left: 13px;
     color: white;
 }
 .c-b{
@@ -96,9 +117,10 @@ ul li{
     padding-left: 30px;
 }
 #title-logo{
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 45px;
+    font-weight: bolder;
     vertical-align: middle;
+    margin-left: 15px;
 }
 
 
